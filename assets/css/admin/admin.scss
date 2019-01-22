@@ -1,0 +1,32 @@
+.flexbox-main-welcome-box {
+	padding: 25px 15px;
+	hr {
+		margin: 30px 0 20px;
+	}
+	.flex-box {
+		display: flex;
+		width: 100%;
+		@media (max-width: 767px) {
+			display: block;
+		}
+		.flex-col:first-of-type .flex-col-inner {
+			padding-right: 30px;
+		}
+		.flex-col {
+			flex: 0 0 50%;
+			@media (max-width: 767px) {
+				flex: 0 0 100%;
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.flexbox-wpguide-logo {
+		width: 170px;
+		height: auto;
+	}
+}
+.flexbox-welcome-panel-col-desc {
+	color: #72777c;
+	font-style: italic;
+}

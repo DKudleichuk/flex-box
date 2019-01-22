@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------
+[Gutenberg styles]
+- Table of contents -
+
+1. Gallery Block
+2. Big Quote Block
+3. Columns Block
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1. Gallery Block
+--------------------------------------------------------------*/
+.wp-block-gallery {
+	margin-bottom: 30px;
+	li:before {
+		display: none;
+	}
+}
+
+/*--------------------------------------------------------------
+2. Big Quote Block
+--------------------------------------------------------------*/
+.wp-block-quote.is-large {
+	border-left: 0;
+	margin-bottom: 35px;
+	background: transparent;
+	font-style: normal;
+	font-weight: normal;
+	padding: 35px 0 0 0;
+	p {
+		line-height: 1.4;
+	}
+	em {
+		font-style: normal;
+		font-weight: normal;
+	}
+	&::before {
+		left: 50%;
+		top: 0;
+		transform: translateX(-50%);
+	}
+}
+
+/*--------------------------------------------------------------
+3. Columns Block
+--------------------------------------------------------------*/
+.wp-block-text-columns, .wp-block-columns {
+	margin-bottom: 30px;
+}
+.wp-block-columns {
+	.wp-block-image {
+		margin: 0 30px;
+	}
+}

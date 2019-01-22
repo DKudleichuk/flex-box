@@ -1,0 +1,225 @@
+/*------------------------------------------------------------------
+[Footer styles]
+- Table of contents -
+
+1. Footer markup
+2. Standard WP widget styles
+	2.1 Widget: Calendar
+	2.2 Widget: RSS
+	2.3 Widget: Tag Cloud
+	2.4 Shared styles for widgets: Meta, Recent Entries, Recent Comments, Archive
+	2.5 Shared styles for widgets: Pages, Categories, Menu
+	2.6 Widget: Search
+3. Footer Call to action block (CTA)
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+1. Footer markup
+-------------------------------------------------------------------*/
+#footer {
+	margin-top: 35px;
+	padding: 70px 0;
+	background: $footer-bg-color;
+	color: $footer-text-color;
+	@media (max-width: 992px) {
+		padding-bottom: 35px;
+	}
+	a {
+		color: $footer-link-color;
+	}
+	a:hover {
+		color: $footer-link-hover-color;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: $footer-headers-color;
+	}
+	hr {
+		background-color: $footer-borders-color;
+	}
+	.widget-title {
+		font-size: 24px;
+		line-height: 34px;
+		position: relative;
+		margin-bottom: 28px;
+		padding-bottom: 18px;
+	}
+	.widget-title:after {
+		content: '';
+		position: absolute;
+		height: 2px;
+		width: 70px;
+		bottom: 0;
+		left: 0;
+		background: $color-accent-red;
+	}
+	.widget + .widget {
+		margin-top: 35px;
+	}
+	.widget {
+		@media (max-width: 992px) {
+			margin-bottom: 35px;
+		}
+	}
+}
+
+#footer.no-widgets {
+	padding: 30px 0;
+}
+
+/*------------------------------------------------------------------
+2. Standard WP widget styles
+	2.1 Widget: Calendar
+-------------------------------------------------------------------*/
+#footer .widget_calendar {
+	table {
+		border-color: $footer-borders-color;
+		td, th {
+			border-color: $footer-borders-color;
+		}
+		a {
+			color: $color-accent-red;
+		}
+		a:hover {
+			color: darken( $color-accent-red, 10 );
+		}
+	}
+}
+
+/*------------------------------------------------------------------
+2. Standard WP widget styles
+	2.2 Widget: RSS
+-------------------------------------------------------------------*/
+#footer .widget_rss {
+	h4 a.rsswidget {
+		color: $footer-headers-color;
+	}
+	ul {
+		li {
+			border-bottom: 1px solid $footer-borders-color;
+			padding-bottom: 24px;
+			margin-bottom: 24px;
+		}
+		li:last-of-type {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: 0;
+		}
+	}
+}
+
+/*------------------------------------------------------------------
+2. Standard WP widget styles
+	2.3 Widget: Tag Cloud
+-------------------------------------------------------------------*/
+#footer .widget_tag_cloud {
+	a {
+		border-color: $footer-borders-color;
+		color: $footer-link-color;
+	}
+	a:hover {
+		border-color: $color-accent-red;
+		color: #fff;
+		background: $color-accent-red;
+	}
+}
+
+/*------------------------------------------------------------------
+2. Standard WP widget styles
+	2.4 Shared styles for widgets: Meta, Recent Entries, Recent Comments, Archive
+-------------------------------------------------------------------*/
+#footer {
+	.widget_meta, .widget_recent_entries, .widget_recent_comments, .widget_archive {
+		.widget-content {
+			color: $footer-text-color;
+		}
+	}
+}
+
+/*------------------------------------------------------------------
+2. Standard WP widget styles
+	2.5 Shared styles for widgets: Pages, Categories, Menu
+-------------------------------------------------------------------*/
+#footer {
+	.widget_pages, .widget_categories, .widget_nav_menu {
+		div {
+			color: $footer-text-color;
+		}
+		div > ul {
+			> li {
+				border-color: $footer-borders-color;
+			}
+			ul {
+				border-color: $footer-borders-color;
+				a {
+					color: $footer-text-color;
+				}
+				a:hover {
+					color: $color-accent-red;
+				}
+			}
+		}
+	}
+}
+
+/*------------------------------------------------------------------
+2. Standard WP widget styles
+	2.6 Widget: Search
+-------------------------------------------------------------------*/
+#footer .widget_search {
+	background: transparent;
+	.widget-title {
+		display: none;
+	}
+	.widget-content {
+		padding: 0;
+	}
+	form {
+		position: relative;
+	}
+	input.s {
+		border-radius: 25px;
+		background: transparent;
+		padding-right: 55px;
+		padding-left: 25px;
+		border-color: $footer-borders-color;
+	}
+	button {
+		background: transparent;
+		font-family: $font-family-icons;
+		color: $footer-text-color;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		top: 50%;
+		right: 20px;
+		font-weight: normal;
+		transform: translateY(-50%);
+	}
+}
+
+/*------------------------------------------------------------------
+3. Footer Call to action block (CTA)
+-------------------------------------------------------------------*/
+.footer-cta {
+	background: $color-accent-red;
+	color: $color-accent-inner;
+	padding: 70px 0;
+	margin-top: 35px;
+	margin-bottom: -35px;
+	text-align: center;
+	h2 {
+		color: $color-accent-inner;
+		margin-bottom: 5px;
+	}
+	p {
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 30px;
+	}
+	.button {
+		min-width: 250px;
+		margin: 10px;
+	}
+}

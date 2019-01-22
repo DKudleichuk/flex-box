@@ -1,0 +1,447 @@
+/*------------------------------------------------------------------
+[Header styles]
+- Table of contents -
+
+1. Header markup
+2. Mobile menu styles
+3. Desktop menu styles
+4. Hamburger / mobile menu toggler
+5. Top bar styles
+6. Breadcrumbs styles
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+1. Header markup
+-------------------------------------------------------------------*/
+#header {
+	padding: 30px 0;
+	position: relative;
+	.menu i {
+		font-size: 20px;
+	}
+	.text-logo, .text-logo-tagline { 
+		margin-bottom: 0;
+	}
+	.text-logo {
+		text-transform: uppercase;
+	}
+	.logo:hover .text-logo {
+		color: $color-accent-red;
+	}
+	.text-logo-tagline {
+		color: $color-text;
+	}
+}
+#header + .breadcrumbs {
+	margin-bottom: 35px;
+}
+@media (min-width: 992px) {
+	.header-menu-container { 
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+}
+
+@media (max-width: 991px) { 
+	.header-logo-container {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+}
+
+#custom-header-wrapper {
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#header.video-header #wp-custom-header {
+	padding-top: 56.25%;
+}
+
+#wp-custom-header {
+	position: relative;
+	img {
+		width: 100%;
+		height: auto;
+	}
+	iframe {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		border: 0;
+    top: 0;
+		left: 0;
+		pointer-events: none;
+	}
+	#wp-custom-header-video-button {
+		display: none;
+	}
+}
+
+/*------------------------------------------------------------------
+2. Mobile menu styles
+-------------------------------------------------------------------*/
+@media (max-width: 991px) { 
+	#header ul.menu {
+		transition: all 0.3s;
+		list-style: none;
+		margin: 0;
+		padding: 25px 0;
+		display: none;
+
+		li:before,
+		li:after {
+			display: none;
+		}
+
+		.sub-menu {
+			list-style: none;
+			margin: 0 0 0 20px;
+			padding: 0;
+			display: none;
+		}
+
+		.sub-menu.open {
+			display: block;
+		}
+
+		.menu-item {
+			position: relative;
+			margin: 0;
+			padding: 0;
+		}
+
+		> .menu-item > a {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		.menu-item > a {
+			display: block;
+			border-bottom: 1px solid $header-dropdown-separator-color;
+			padding: 10px 30px 10px 0;
+			color: $header-dropdown-link-color;
+		}
+
+		.menu-item > a:hover {
+			color: $header-dropdown-hover-link-color;
+		}
+
+		.mobile-submenu-toggler {
+			position: absolute;
+			cursor: pointer;
+			display: block;
+			right: 0;
+			top: 7px;
+			width: 30px;
+			height: 30px;
+			background-size: 15px auto;
+			transition: all 0.3s;
+		}
+		.mobile-submenu-toggler:after {
+			content: '\f107';
+			font-family: $font-family-icons;
+			color: $header-dropdown-icon-color;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate( -50%, -50% );
+		}
+
+		.mobile-submenu-toggler.open {
+			transform: rotate(-90deg);
+		}
+
+		.mobile-submenu-toggler.open:after {
+			color: $header-accent-color;
+		}
+
+	}
+
+	#header ul.menu.open {
+		display: block;
+	}
+}
+/*------------------------------------------------------------------
+3. Desktop menu styles
+-------------------------------------------------------------------*/
+@media (min-width: 992px) { 
+	#header ul.menu {
+		display: flex; 
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		.menu-item {
+			margin: 0;
+			padding: 0;
+			position: relative;
+			a {
+				text-decoration: none;
+			}
+		}
+
+		.menu-item:before,
+		.menu-item:after {
+			display: none;
+		}
+
+		/**
+			First level
+		**/
+		> .menu-item {
+			margin-left: 30px; 
+			position: relative;
+			> a {
+				display: block;
+				padding: 15px 0;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: $header-link-color;
+			}
+			> a:hover {
+				color: $header-link-hover-color;
+			}
+		}
+		> .current-menu-item,
+		> .current-menu-parent {
+			> a {
+				color: $header-link-hover-color;
+			}
+		}
+		> .menu-item-has-children {
+			> a {
+				padding-right: 15px;
+				position: relative;
+			}
+			> a:after {
+				position: absolute;
+				content: '\f107';
+				font-family: $font-family-icons;
+				right: 0;
+				top: 14px; 
+			}
+		}
+
+		/**
+			Dropdown
+		**/
+		.sub-menu {
+			visibility: hidden;
+			opacity: 0;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			z-index: 10;
+			top: 100%;
+			left: 0;
+			margin-top: -2px;
+			transform: translateX(-10px);
+			transition: all 0.3s;
+
+			background: $header-dropdown-bg-color;
+			border-top: 2px solid $header-accent-color;
+
+			.menu-item > a {
+				display: block;
+				border-bottom: 1px solid $header-dropdown-separator-color;
+				color: $header-dropdown-link-color;
+				padding: 15px 30px;
+				white-space: nowrap;
+			}
+
+			.menu-item-has-children {
+				> a {
+					padding-right: 40px;
+					position: relative;
+				}
+				> a:after {
+					position: absolute;
+					content: '\f105';
+					font-family: $font-family-icons;
+					right: 15px;
+					top: 50%;
+					transform: translateY( -50% );
+					color: $header-dropdown-icon-color;
+				}
+				> a:hover:after {
+					color: $header-accent-color;
+				}
+			}
+
+			.current-menu-item,
+			.current-menu-parent,
+			.menu-item {
+				> a:hover {
+					color: $header-dropdown-hover-link-color;
+				}
+			}
+
+			.sub-menu {
+				left: 100%;
+				top: 0;
+			}
+		}
+
+		.menu-item:hover > .sub-menu {
+			opacity: 1;
+			visibility: visible;
+			transform: translateX(0);
+		}
+
+	}
+}
+
+/*------------------------------------------------------------------
+4. Hamburger / mobile menu toggler
+-------------------------------------------------------------------*/
+.hamburger {
+	padding: 0;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 15px 0 15px auto;
+	overflow: visible;
+	@media (min-width: 992px) {
+		display: none;
+	}
+}
+.hamburger:hover {
+	opacity: 0.7;
+}
+.hamburger-box {
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+	position: relative;
+}
+.hamburger-inner {
+  display: block;
+  top: 50%;
+	margin-top: -2px;
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+	width: 40px;
+	height: 4px;
+	background-color: #000;
+	border-radius: 4px;
+	position: absolute;
+	transition-property: transform;
+	transition-duration: 0.15s;
+	transition-timing-function: ease;
+}
+.hamburger-inner::before, .hamburger-inner::after {
+	content: "";
+	display: block;
+}
+.hamburger-inner::before {
+	top: -10px;
+}
+.hamburger-inner::after {
+	bottom: -10px;
+}
+.hamburger .hamburger-inner {
+  transition-duration: 0.075s;
+	transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.hamburger .hamburger-inner::before {
+	transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+}
+.hamburger .hamburger-inner::after {
+	transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.hamburger.is-active .hamburger-inner {
+  transform: rotate(45deg);
+  transition-delay: 0.12s;
+	transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hamburger.is-active .hamburger-inner::before {
+	top: 0;
+	opacity: 0;
+	transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+.hamburger.is-active .hamburger-inner::after {
+	bottom: 0;
+	transform: rotate(-90deg);
+	transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*------------------------------------------------------------------
+5. Top bar styles
+-------------------------------------------------------------------*/
+#top-bar {
+	background: $color-accent-black;
+	color: #898989;
+	padding: 12px 0;
+	font-size: 15px;
+	.col-12 {
+		display: flex;
+		@media (max-width: 767px) {
+			display: block;
+		}
+	}
+	a {
+		color: #898989;
+	}
+	a:hover {
+		color: $color-accent-red;
+	}
+	.profiles {
+		margin-left: auto;
+		i {
+			margin-left: 3px;
+			@media (max-width: 767px) {
+				margin-left: 0;
+				margin-right: 3px;
+			}
+		}
+	}
+	.top-bar-menu {
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			font-size: 13px;
+			li:before,
+			li:after {
+				display: none;
+			}
+			li {
+				margin: 0 25px 0 0;
+				padding: 0;
+			}
+		}
+	}
+}
+
+/*------------------------------------------------------------------
+6. Breadcrumbs styles
+-------------------------------------------------------------------*/
+.breadcrumbs {
+	background: $color-accent-red url(../../images/breadcrumbs-bg.jpg) center center no-repeat;
+	color: $color-accent-inner;
+	padding: 30px 0;
+	font-weight: bold;
+	a {
+		font-weight: normal;
+		color: $color-accent-inner;
+	}
+	i {
+		margin: 0 10px;
+	}
+}

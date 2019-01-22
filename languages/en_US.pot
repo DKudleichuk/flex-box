@@ -1,0 +1,904 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexbox Theme\n"
+"POT-Creation-Date: 2018-09-26 11:31+0200\n"
+"PO-Revision-Date: 2018-09-26 11:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../App/Config.php:58
+msgid "Monospace font family"
+msgstr ""
+
+#: ../App/Config.php:59
+msgid "Primary font family"
+msgstr ""
+
+#: ../App/Config.php:60
+msgid "Secondary font family"
+msgstr ""
+
+#: ../App/Config.php:61
+msgid "Iconic font"
+msgstr ""
+
+#: ../App/Config.php:62
+msgid "Primary accent color"
+msgstr ""
+
+#: ../App/Config.php:63
+msgid "Secondary accent color"
+msgstr ""
+
+#: ../App/Config.php:64
+msgid "Third accent color"
+msgstr ""
+
+#: ../App/Config.php:65
+msgid "Fourth accent color"
+msgstr ""
+
+#: ../App/Config.php:66
+msgid "Accent inner color"
+msgstr ""
+
+#: ../App/Config.php:67
+msgid "Text color"
+msgstr ""
+
+#: ../App/Config.php:68
+msgid "Light text color"
+msgstr ""
+
+#: ../App/Config.php:69
+msgid "Headers color"
+msgstr ""
+
+#: ../App/Config.php:70
+msgid "Grey color"
+msgstr ""
+
+#: ../App/Config.php:71
+msgid "Light Grey color"
+msgstr ""
+
+#: ../App/Config.php:72
+msgid "Borders color"
+msgstr ""
+
+#: ../App/Config.php:73
+msgid "Overlay color"
+msgstr ""
+
+#: ../App/Config.php:74
+msgid "Header: Link color"
+msgstr ""
+
+#: ../App/Config.php:75
+msgid "Header: Link hover color"
+msgstr ""
+
+#: ../App/Config.php:76
+msgid "Header: Icons color"
+msgstr ""
+
+#: ../App/Config.php:77
+msgid "Header: Accent color"
+msgstr ""
+
+#: ../App/Config.php:78
+msgid "Header: Accent inner color"
+msgstr ""
+
+#: ../App/Config.php:79
+msgid "Header: Dropdown bg color"
+msgstr ""
+
+#: ../App/Config.php:80
+msgid "Header: Dropdown link color"
+msgstr ""
+
+#: ../App/Config.php:81
+msgid "Header: Dropdown hover link color"
+msgstr ""
+
+#: ../App/Config.php:82
+msgid "Header: Dropdown separator color"
+msgstr ""
+
+#: ../App/Config.php:83
+msgid "Header: Dropdown icon color"
+msgstr ""
+
+#: ../App/Config.php:84
+msgid "Footer: Background color"
+msgstr ""
+
+#: ../App/Config.php:85
+msgid "Footer: Bottom bar background color"
+msgstr ""
+
+#: ../App/Config.php:86
+msgid "Footer: Text color"
+msgstr ""
+
+#: ../App/Config.php:87
+msgid "Footer: Links color"
+msgstr ""
+
+#: ../App/Config.php:88
+msgid "Footer: Links hover color"
+msgstr ""
+
+#: ../App/Config.php:89
+msgid "Footer: Headers color"
+msgstr ""
+
+#: ../App/Config.php:90
+msgid "Footer: Borders color"
+msgstr ""
+
+#: ../App/Config.php:155
+msgid "The Flexbox Starter Theme"
+msgstr ""
+
+#: ../App/Config.php:157
+msgid "Preview"
+msgstr ""
+
+#: ../App/Config.php:158 ../vendor/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: ../App/Controller/Backend.php:62 ../App/Controller/Backend.php:63
+msgid "FLEXBOX Theme"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:79
+msgid "Header Settings"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:89
+msgid "Display top bar"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:101
+msgid "Display breadcrumbs in header (using Breadcrumb NavXT plugin)"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:113
+msgid "Display search icon in menu"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:125
+msgid "Display cart icon in menu (if WooCommerce plugin is active)"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:147
+msgid "Breadcrumbs background image"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:179
+msgid "Social Profiles"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:206
+msgid "Footer Call To Action"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:217
+msgid "Display Call To Action Block"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:229
+msgid "Block title"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:241
+msgid "Content"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:253
+msgid "Button 1 text"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:265
+msgid "Button 1 link"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:277
+msgid "Button 2 text"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:289
+msgid "Button 2 link"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:328
+msgid "Reset"
+msgstr ""
+
+#: ../App/Controller/Customizer.php:329
+msgid ""
+"Attention! This will remove absolutely all customizations that was made "
+"using Customizer!"
+msgstr ""
+
+#: ../App/Controller/Init.php:90
+msgid "Sidebar"
+msgstr ""
+
+#: ../App/Controller/Init.php:100
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../App/Controller/Init.php:110
+msgid "Footer Col 1 Sidebar"
+msgstr ""
+
+#: ../App/Controller/Init.php:119
+msgid "Footer Col 2 Sidebar"
+msgstr ""
+
+#: ../App/Controller/Init.php:128
+msgid "Footer Col 3 Sidebar"
+msgstr ""
+
+#: ../App/Controller/Init.php:137
+msgid "Footer Col 4 Sidebar"
+msgstr ""
+
+#: ../App/Controller/Menu.php:29
+msgid "Top Bar Menu"
+msgstr ""
+
+#: ../App/Controller/Menu.php:30
+msgid "Header Menu"
+msgstr ""
+
+#: ../App/Controller/Menu.php:31
+msgid "Bottom Bar Menu"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:8
+#, php-format
+msgid "Welcome to the Flexbox Starter Theme v%s"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:10
+#, php-format
+msgid ""
+"Hi, %s! And here is a Big Thank You for downloading and using this product. "
+"Be sure that it is absolutely free and always will be only free: this theme "
+"is our gratitude to WordPress developers, volunteers, users and the whole "
+"WordPress community. I hope that you will find it useful when creating your "
+"next web sites."
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:14
+msgid "The Goal"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:16
+#, php-format
+msgid ""
+"The main idea was to improve the quality of free products and get more "
+"people to use WordPress platform, so in addition to this theme, i am working "
+"on 100% free courses that cover absolutely all topics which related to "
+"WordPress: from beginner to professional developer. I deeply convinced that "
+"education should be free of charge, and therefore i would like to share my "
+"10+ years of experiense in web development. Here are several links to get "
+"started:"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:20
+msgid "Basic User Course"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:23
+msgid ""
+"These lessons for beginners explain the basics of website administration and "
+"content management."
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:24
+msgid "WordPress and Theme Installation"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:25
+msgid "First steps in dashboard"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:26
+msgid "Writing posts and pages"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:27 ../App/View/Admin/Welcome.php:39
+#: ../App/View/Admin/Welcome.php:51
+msgid "and more!"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:32
+msgid "Advanced User Course"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:35
+msgid ""
+"You will learn how to customize any theme or plugin outside of available "
+"options."
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:36
+msgid "Creating a child theme"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:37
+msgid "Overriding templates and styles"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:38
+msgid "Using hooks and actions"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:44
+msgid "Pro WordPress Developer Course"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:47
+msgid ""
+"Like a Pro! Let's develop this theme step-by-step, together, with "
+"explanations of source code and feedbacks!"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:48
+msgid "Understanding MVC in WordPress"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:49
+msgid "Application structure"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:50
+msgid "Theme development"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:66
+msgid "System health status"
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:123
+msgid ""
+"Please do not forget to provide us following information within your support "
+"tickets, it will help us to determine and resolve your possible problem much "
+"faster."
+msgstr ""
+
+#: ../App/View/Admin/Welcome.php:129
+msgid "Changelog"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/View/Backend.php:2
+msgid "Widget title:"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/View/Backend.php:6
+msgid "Choose post type to display:"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/View/Backend.php:14
+msgid "Posts count:"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/View/Backend.php:19
+msgid "Display thumbnails"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/View/Backend.php:23
+msgid "Display post date"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/View/Backend.php:27
+msgid "Display comments count"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/View/Frontend.php:93
+msgid "No comments"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/View/Frontend.php:93
+msgid "One comment"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/View/Frontend.php:93
+#: ../template-parts/loop/post-data.php:10
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/View/Frontend.php:106
+msgid "No posts to display"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/Widget.php:15
+msgid "Recent posts"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/Widget.php:25
+msgid "A widget that displays recent posts with thumbnails"
+msgstr ""
+
+#: ../App/Widget/RecentPosts/Widget.php:36
+msgid "[FLEXBOX] Recent Posts"
+msgstr ""
+
+#: ../comments.php:33
+msgid "Pingback:"
+msgstr ""
+
+#: ../comments.php:56
+msgid "ago"
+msgstr ""
+
+#: ../comments.php:62
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:108
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:109
+msgid "Your Comment *"
+msgstr ""
+
+#: ../comments.php:111
+msgid "Your Name *"
+msgstr ""
+
+#: ../comments.php:112
+msgid "Email Address *"
+msgstr ""
+
+#: ../comments.php:116
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:119
+msgid "Submit"
+msgstr ""
+
+#: ../comments.php:159
+msgid "There are no comments on this page."
+msgstr ""
+
+#: ../comments.php:161
+msgid "There are no comments on this post."
+msgstr ""
+
+#: ../comments.php:169
+msgid "Comments were disabled for this page."
+msgstr ""
+
+#: ../comments.php:171
+msgid "Comments were disabled for this post."
+msgstr ""
+
+#: ../template-parts/header/breadcrumbs.php:22
+#, php-format
+msgid ""
+"Install <a href=\"%s\">Breadcrumbs NavXT</a> plugin to display breadcrumbs"
+msgstr ""
+
+#: ../template-parts/loop/before.php:25
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: ../template-parts/loop/before.php:27
+msgid "Search"
+msgstr ""
+
+#: ../template-parts/loop/before.php:42
+#, php-format
+msgid "Posts written by \"%s\""
+msgstr ""
+
+#: ../template-parts/loop/before.php:54
+#, php-format
+msgid "Posts tagged with \"%s\""
+msgstr ""
+
+#: ../template-parts/loop/before.php:66
+#, php-format
+msgid "Posts in \"%s\" category"
+msgstr ""
+
+#: ../template-parts/loop/before.php:81
+#, php-format
+msgid "Archive for %s %s"
+msgstr ""
+
+#: ../template-parts/loop/no-posts.php:4
+msgid "We can not find any posts by your search criteria, sorry..."
+msgstr ""
+
+#: ../template-parts/loop/post-audio.php:17
+#: ../template-parts/loop/post-gallery.php:18
+#: ../template-parts/loop/post-video.php:17 ../template-parts/loop/post.php:21
+msgid "Read more"
+msgstr ""
+
+#: ../template-parts/loop/post-data.php:3 ../template-parts/single/data.php:3
+msgid "By"
+msgstr ""
+
+#: ../template-parts/loop/post-data.php:6 ../template-parts/single/data.php:6
+msgid "Posted on"
+msgstr ""
+
+#: ../template-parts/loop/post-data.php:10
+msgid "0 comments"
+msgstr ""
+
+#: ../template-parts/loop/post-data.php:10
+msgid "1 comment"
+msgstr ""
+
+#: ../template-parts/loop/post-data.php:15
+msgid "In"
+msgstr ""
+
+#: ../template-parts/loop/post-data.php:18
+msgid "Tags: "
+msgstr ""
+
+#: ../template-parts/loop/product.php:5
+msgid "Shop it"
+msgstr ""
+
+#: ../template-parts/page_404_content.php:4
+msgid "Unfortunately, we can not find requested page."
+msgstr ""
+
+#: ../template-parts/page_404_content.php:6
+msgid "Try to find something else using a form below."
+msgstr ""
+
+#: ../template-parts/search-form-woocommerce.php:8
+msgid "Search Products..."
+msgstr ""
+
+#: ../template-parts/search-form.php:7
+msgid "Search..."
+msgstr ""
+
+#: ../template-parts/single/pagination.php:3
+msgid "Pages:"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:386
+#: ../vendor/tgm/class-tgm-plugin-activation.php:827
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2533
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:387
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:934
+#: ../vendor/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#. translators: %s: version number
+#: ../vendor/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3509
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3509
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../vendor/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""

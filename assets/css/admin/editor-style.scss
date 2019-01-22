@@ -1,0 +1,253 @@
+@import '../front/variables';
+@import '../front/extends';
+
+/*------------------------------------------------------------------
+[TinyMCE Editor Style]
+-------------------------------------------------------------------*/
+::selection {
+	background: $color-accent-red; /* WebKit/Blink Browsers */
+	color: #fff;
+}
+::-moz-selection {
+	background: $color-accent-red; /* Gecko Browsers */
+	color: #fff;
+}
+
+body {
+	background: #fff;
+	font: 15px/22px $font-family-primary; 
+	color: $color-text;
+}
+
+a {
+	color: $color-accent-red;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darken( $color-accent-red, 10 );
+}
+
+audio, video {
+	width: 100%;
+	max-width: 100%;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+select {
+	max-width: 100%;
+} 
+
+h1 {
+	font-size: 36px;
+	line-height: 46px;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 40px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+h4, h5, h6 {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+h6 {
+	text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-secondary;
+	color: $color-headers;
+	font-weight: bold;
+	word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+	a {
+		color: inherit;
+	}
+}
+
+address, blockquote, figure, pre {
+	display: block;
+	max-width: 100%;
+}
+
+pre {
+	width: 100%;
+	overflow-x: auto;
+	background: $color-light-grey;
+	padding: 30px;
+}
+
+h1, h2, h3, h4, h5, h6, table, form, p, ul, ol, blockquote, iframe, dl, figure, .thumb, .shortcode, .form-row, .page-links, code, address, pre,
+.wp-audio-shortcode, .comment-text > ul, .comment-text > ol, figure {
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+.has-top-margin {
+	margin-top: 30px;
+}
+
+p + h1, p + h2, p + h3, p + h4 {
+	margin-top: 42px;
+}
+
+p:empty {
+	display: none;
+}
+
+dl {
+	padding-left: 35px;
+	dt {
+		position: relative;
+		margin-bottom: 2px;
+		font-weight: bold;
+		&:before {
+			@extend %liPointer;
+		}
+	}
+	dd {
+		margin-bottom: 22px;
+		margin-left: 0;
+	}
+}
+
+dl.wp-caption {
+	dt:before {
+		display: none;
+	}
+}
+
+hr {
+	border: 0;
+	margin: 30px 0;
+	border-bottom: 2px solid $color-borders;
+}
+
+ul, ol {
+	padding-left: 35px;
+	margin-left: 0;
+	li {
+		margin-bottom: 5px;
+	}
+	ul, ol {
+		margin-top: 4px;
+		margin-bottom: 5px;
+	}
+}
+
+ul {
+	list-style: none;
+	> li {
+		position: relative;
+		&:before {
+			@extend %liPointer;
+		}
+	}
+	> li > ul li:before {
+		display: none;
+	}
+	li > ul {
+		list-style: disc;
+		li:before,
+		li:after {
+			display: none;
+		}
+	}
+}
+
+
+table {
+	width: 100%;
+	border: 1px solid $color-borders;
+	border-collapse: collapse;
+	width: 100%;
+	@media (max-width: 767px) {
+		display: block;
+		overflow-x: auto;
+	}
+	td, th {
+		border: 1px solid $color-borders;
+	}
+	td, th, caption {
+		padding: 10px 15px;
+	}
+}
+
+blockquote {
+	border-left: 2px solid $color-accent-red;
+	padding: 40px 40px 40px 100px;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+
+	@media (max-width: 767px) {
+		padding: 40px;
+	}
+
+	&:before {
+		content: '\e808';
+		font-family: $font-family-icons;
+		position: absolute;
+		left: 60px;
+		top: 40px;
+		color: $color-accent-red;
+		font-size: 30px;
+		@media (max-width: 767px) {
+			display: none;
+		}
+	}
+	p {
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 0;
+		@media (max-width: 767px) {
+			font-size: inherit;
+		}
+	}
+	p + cite {
+		margin-top: 18px;
+	}
+	cite {
+		display: block;
+		padding-top: 10px;
+		color: $color-text-light;
+	}
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: inherit;
+}
+
+table {
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wp-caption {
+	width: auto !important;
+}
+
+.wp-caption-text {
+	color: $color-text-light;
+	font-style: italic;
+}

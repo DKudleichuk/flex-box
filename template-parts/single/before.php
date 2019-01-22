@@ -1,0 +1,1 @@
+<div class="<?php echo \Flexbox\Helper\Front::get_grid_class(); ?>">

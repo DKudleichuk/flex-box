@@ -1,7 +1,6 @@
 # flex-box
 Free, flexible and minimal MVC WordPress theme
 Author: Dmitriy Kudleichuk
-Follow my profile: https://www.linkedin.com/in/dmytro-k-648189152/
 
 **Requirements**
  
